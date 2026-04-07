@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "img": "@/public/benefits/bench.svg",
+        "alt": "bench",
+        "text": "Рядом исторические парки и скверы"
+    },
+    {
+        "id": 1,
+        "img": "@/public/benefits/building.svg",
+        "alt": "building",
+        "text": "Полностью обустроенный"
+    },
+    {
+        "id": 2,
+        "img": "@/public/benefits/fountain.svg",
+        "alt": "fountain",
+        "text": "10 фонтанов на территории"
+    },
+    {
+        "id": 3,
+        "img": "@/public/benefits/bicycle.svg",
+        "alt": "bicycle",
+        "text": "6 км велодорожек"
+    }
+]

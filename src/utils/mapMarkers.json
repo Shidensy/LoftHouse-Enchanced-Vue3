@@ -1,0 +1,221 @@
+[
+    {
+        "id": 0,
+        "coordinates": [30.343024, 59.936147],
+        "img": "./src/assets/map/pin-home.svg",
+        "alt": "home-pin",
+        "balloon": {
+            "id": 0,
+            "title": "Мы на карте",
+            "subtitle": "Наб. реки Фонтанки 10-15 8 (812) 123-45-67",
+            "text": {
+                "p1": "1 комн. 10 кв. м",
+                "p2": "1 этаж из 4"
+            }
+        }
+    },
+    {
+        "id": 1,
+        "coordinates": [30.301014, 59.913016],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 1,
+            "title": "Квартира",
+            "subtitle": "1 200 000",
+            "text": {
+                "p1": "1 комн. 10 кв. м",
+                "p2": "1 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "01"
+        }
+    },
+    {
+        "id": 2,
+        "coordinates": [30.283127, 59.911152],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 2,
+            "title": "Квартира",
+            "subtitle": "2 200 000",
+            "text": {
+                "p1": "2 комн. 20 кв. м",
+                "p2": "2 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "02"
+        }
+    },
+    {
+        "id": 3,
+        "coordinates": [30.280703, 59.90168],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 3,
+            "title": "Квартира",
+            "subtitle": "3 200 000",
+            "text": {
+                "p1": "3 комн. 30 кв. м",
+                "p2": "3 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "03"
+        }
+    },
+    {
+        "id": 4,
+        "coordinates": [30.307198, 59.903333],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 4,
+            "title": "Квартира",
+            "subtitle": "4 200 000",
+            "text": {
+                "p1": "4 комн. 30 кв. м",
+                "p2": "4 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "04"
+        }
+    },
+    {
+        "id": 5,
+        "coordinates": [30.292262, 59.96298],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 1,
+            "title": "Квартира",
+            "subtitle": "1 200 000",
+            "text": {
+                "p1": "1 комн. 10 кв. м",
+                "p2": "1 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "01"
+        }
+    },
+    {
+        "id": 6,
+        "coordinates": [30.307847, 59.964369],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 2,
+            "title": "Квартира",
+            "subtitle": "2 200 000",
+            "text": {
+                "p1": "2 комн. 20 кв. м",
+                "p2": "2 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "02"
+        }
+    },
+    {
+        "id": 7,
+        "coordinates": [30.280703, 59.964168],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 3,
+            "title": "Квартира",
+            "subtitle": "3 200 000",
+            "text": {
+                "p1": "3 комн. 30 кв. м",
+                "p2": "3 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "03"
+        }
+    },
+    {
+        "id": 8,
+        "coordinates": [30.327198, 59.963333],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 4,
+            "title": "Квартира",
+            "subtitle": "4 200 000",
+            "text": {
+                "p1": "4 комн. 30 кв. м",
+                "p2": "4 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "04"
+        }
+    },
+    {
+        "id": 9,
+        "coordinates": [30.458921, 59.965271],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 1,
+            "title": "Квартира",
+            "subtitle": "1 200 000",
+            "text": {
+                "p1": "1 комн. 10 кв. м",
+                "p2": "1 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "01"
+        }
+    },
+    {
+        "id": 10,
+        "coordinates": [30.458921, 59.955271],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 2,
+            "title": "Квартира",
+            "subtitle": "2 200 000",
+            "text": {
+                "p1": "2 комн. 20 кв. м",
+                "p2": "2 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "02"
+        }
+    },
+    {
+        "id": 11,
+        "coordinates": [30.438921, 59.965271],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 3,
+            "title": "Квартира",
+            "subtitle": "3 200 000",
+            "text": {
+                "p1": "3 комн. 30 кв. м",
+                "p2": "3 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "03"
+        }
+    },
+    {
+        "id": 12,
+        "coordinates": [30.498921, 59.965271],
+        "img": "@/public/map/pin-home.svg",
+        "alt": "defaultPin",
+        "balloon": {
+            "id": 4,
+            "title": "Квартира",
+            "subtitle": "4 200 000",
+            "text": {
+                "p1": "4 комн. 30 кв. м",
+                "p2": "4 этаж из 4"
+            },
+            "img": "@/public/apartments/01.jpg",
+            "alt": "04"
+        }
+    }
+]

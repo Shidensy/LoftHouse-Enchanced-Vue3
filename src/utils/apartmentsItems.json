@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "img": "@/assets/apartments/01.jpg",
+        "alt": "Loft Olimp",
+        "text": "Пентхаус “Loft Olimp”"
+    },
+    {
+        "id": 1,
+        "img": "apartments/02.jpg",
+        "alt": "Nice Loft",
+        "text": "Апартаменты “Nice Loft”"
+    },
+    {
+        "id": 2,
+        "img": "@/assets/apartments/03.jpg",
+        "alt": "“Loft Studio”",
+        "text": "Апартаменты “Loft Studio”"
+    },
+    {
+        "id": 3,
+        "img": "@/assets/apartments/04.jpg",
+        "alt": "“Prestige”",
+        "text": "Loft квартира “Prestige”"
+    }
+]

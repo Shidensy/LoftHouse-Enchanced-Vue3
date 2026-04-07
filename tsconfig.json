@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "ignoreDeprecations": "6.0"
+    },
+
+    "exclude": ["node_modules", "dist"]
+}

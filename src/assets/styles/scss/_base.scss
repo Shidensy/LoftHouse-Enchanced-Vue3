@@ -1,0 +1,122 @@
+@use "vars" as vars;
+@use "mixins" as mix;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;1,300&display=swap");
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: vars.$first-family;
+    background-color: vars.$dark;
+    color: vars.$white;
+    font-size: 16px;
+
+    a {
+        color: vars.$white;
+        transition: color 0.2s ease-in;
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+
+    &--small {
+        max-width: 840px;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.visually-hidden {
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+
+    position: absolute;
+
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+
+    white-space: nowrap;
+}
+
+section {
+    padding: 75px 0;
+}
+
+@include mix.medium {
+    section {
+        padding: 30px 0;
+    }
+}
+
+.none {
+    display: none !important;
+}
+
+.title-2 {
+    font-size: 36px;
+    font-family: vars.$second-family;
+    color: vars.$accent;
+    font-weight: 700;
+}
+
+@include mix.medium {
+    .title-2 {
+        font-size: 30px;
+    }
+}
+
+.link-bold {
+    color: vars.$accent;
+    font-weight: 700;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.show {
+    display: block !important;
+}
+
+// Modal/Balloon animation
+/* Класс для начального и конечного состояния (скрыт) */
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0; /* Прозрачный элемент */
+}
+
+/* Класс для состояния, когда элемент показан */
+.fade-enter-to,
+.fade-leave-from {
+    opacity: 1; /* Полностью видимый */
+}
+
+/* Класс, который задает сам переход */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.4s ease; /* Плавное изменение прозрачности */
+}
+
+// Select form animation
+.translate-enter-active,
+.translate-leave-active {
+    transition: all 0.3s ease-out;
+}
+
+.translate-enter-from,
+.translate-leave-to {
+    transform: translateY(20px);
+    opacity: 0;
+}
